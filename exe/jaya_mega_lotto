@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require_relative "../lib/jaya_mega_lotto/drawing"
+require "jaya_mega_lotto"
 
 drawing = JayaMegaLotto::Drawing.new.draw
 puts drawing
