@@ -24,6 +24,4 @@ module JayaMegaLotto
   def self.reset
     @configuration = Configuration.new
   end
-
-  binding.pry
 end
