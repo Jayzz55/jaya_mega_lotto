@@ -3,6 +3,8 @@ require "jaya_mega_lotto/configuration"
 require "jaya_mega_lotto/drawing"
 require "jaya_mega_lotto/core_ext"
 
+require "jaya_mega_lotto/railtie" if defined?(Rails)
+
 begin
   require "pry"
 rescue LoadError
