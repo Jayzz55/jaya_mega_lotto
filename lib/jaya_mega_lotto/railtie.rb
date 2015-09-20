@@ -8,5 +8,8 @@ module JayaMegaLotto
         include JayaMegaLotto::Helper
       end
     end
+    rake_tasks do
+      load 'jaya_mega_lotto/tasks/jaya_mega_lotto.rake'
+    end
   end
 end
