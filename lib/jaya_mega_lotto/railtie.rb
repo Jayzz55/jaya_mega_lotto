@@ -1,4 +1,5 @@
 require 'rails'
+require 'jaya_mega_lotto/helper'
 
 module JayaMegaLotto
   class Railtie < Rails::Railtie
